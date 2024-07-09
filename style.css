@@ -14,22 +14,36 @@ main{
     margin:130px 320px;
 }
 
-/* nav{
+nav{
     display: flex;
     justify-content: space-between;
-    margin: 80px;
+    margin: 70px;
 }
 nav h1{
     font-size: 28px;
     color: rgb(13, 19, 33);
 }
 .nav-btn{
-    padding: 16px 24px;
-    font-size: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-} */
+}
+
+.nav-btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgba(179, 202, 255, 0.753);
+    
+}
+
+
+.nav-btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
 
 /* banner design */
 
@@ -39,7 +53,7 @@ nav h1{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, 0.116);
+    border: 1px solid rgba(0, 0, 0, 0.027);
 }
 
 .banner-content{
@@ -78,9 +92,84 @@ nav h1{
 }
 
 .banner-btn:hover{
-    box-shadow: 0px 1px 20px black;
+    box-shadow: 0px 1px 5px black;
     cursor: pointer;
     transition: .3s;
 }
 
 /* main section styles */
+.web-dev{
+    height: 1300px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.123);
+}
+
+.web-dev-content{
+    padding: 50px;
+}
+
+.web-dev-title{
+    text-align: center;
+}
+
+.web-dev-title h2{
+    font-size: 35px;
+    margin: 25px;
+}
+
+.web-dev-title p{
+    font-size: 17px;
+    margin: 30px;
+}
+
+.web-dev-card{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.middle{
+    background: linear-gradient(180.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-dev-desc{
+    width: 60%;
+}
+
+.web-dev-card img{
+    width: 300px;
+    height: 300px;
+}
+
+.web-dev-card h3{
+    font-size: 25px;
+    margin: 25px;
+}
+
+.web-dev-card p{
+    font-size: 17px;
+    margin: 30px;
+}
+
+.dev-btn{
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px;
+}
+
+.dev-btn:hover{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.63);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dev-btn a{
+    text-decoration: none;
+}
