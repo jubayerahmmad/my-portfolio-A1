@@ -203,42 +203,44 @@ iframe {
   border-radius: 15px;
 }
 
-.cards-container{
+/* target style */
+
+.cards-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
-.web-dev-tools-card{
+.web-dev-tools-card {
   width: 28%;
   border-radius: 8px;
   height: 450px;
   padding: 45px;
   margin: 20px 0;
 }
-.web-dev-tools-desc{
+.web-dev-tools-desc {
   height: 230px;
 }
 
-.web-dev-tools-desc h3{
+.web-dev-tools-desc h3 {
   font-size: 25px;
   margin: 25px 0;
 }
 
-.html-card{
+.html-card {
   background-color: rgba(150, 203, 250, 0.788);
 }
-.css-card{
+.css-card {
   background-color: rgba(103, 226, 226, 0.589);
 }
-.js-card{
+.js-card {
   background-color: rgba(127, 255, 212, 0.534);
 }
 
-.button-container{
+.button-container {
   margin-top: 30px;
 }
-.target-btn{
+.target-btn {
   padding: 8px 12px;
   border: none;
   background-color: none;
@@ -248,13 +250,61 @@ iframe {
   text-align: center;
 }
 
-.target-btn a{
+.target-btn a {
   text-decoration: none;
   color: rgb(13, 19, 33);
 }
 
-.target-btn:hover{
+.target-btn:hover {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.63);
   cursor: pointer;
   transition: 0.3s;
+}
+
+.support-section {
+  background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0.384) 100%), url(./assets/Frame\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  /* height: 620px; */
+}
+.support{
+  padding: 50px;
+}
+.support h2{
+  font-size: 30px;
+  /* margin: 30px 0; */
+  color: white;
+  
+}
+.support p{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form input{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  
+}
+.contact-button{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+  font-size: 16px;
+}
+.contact-button a{
+  text-decoration: none;
+  color: black;
 }
