@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/945603a62f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <script
+      src="https://kit.fontawesome.com/945603a62f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <section class="navbar">
         <nav>
-          <h1>Jubayer</h1>
+          <h1>Jubayer.A</h1>
           <button class="nav-btn"><a href="">DOWNLOAD RESUME</a></button>
         </nav>
       </section>
+
+      <!-- banner section -->
+
 
       <section class="banner">
         <div class="banner-container">
@@ -33,13 +41,16 @@
               become a web developer and <br />
               build impactful websites that make a difference.
             </p>
-            <button class="banner-btn"><a href="#footer">Contact With Me</a></button>
+            <button class="banner-btn">
+              <a href="#footer">Contact With Me</a>
+            </button>
           </div>
         </div>
       </section>
     </header>
 
     <main>
+      <!-- why web dev section  -->
       <section class="web-dev">
         <div class="web-dev-content">
           <div class="section-title">
@@ -62,7 +73,13 @@
                   and JavaScript to ensure that my websites are accessible and
                   work well on all devices.
                 </p>
-                <button class="dev-btn"><a href="">Learn More</a></button>
+                <button class="dev-btn">
+                  <a
+                    href="https://www.w3schools.com/css/css_rwd_intro.asp"
+                    target="_blank"
+                    >Learn More</a
+                  >
+                </button>
               </div>
             </div>
 
@@ -74,7 +91,13 @@
                   my clients. I use clear, concise language and visual aids to
                   help users easily understand and navigate my websites.
                 </p>
-                <button class="dev-btn"><a href="">Learn More</a></button>
+                <button class="dev-btn">
+                  <a
+                    href="https://en.wikipedia.org/wiki/User_interface"
+                    target="_blank"
+                    >Learn More</a
+                  >
+                </button>
               </div>
               <div class="dev-image">
                 <img src="./assets/Group 4.png" alt="Web Development" />
@@ -93,12 +116,20 @@
                   and JavaScript to ensure that my websites are accessible and
                   work well on all devices.
                 </p>
-                <button class="dev-btn"><a href="">Learn More</a></button>
+                <button class="dev-btn">
+                  <a
+                    href="https://www.w3schools.com/css/css_rwd_intro.asp"
+                    target="_blank"
+                    >Learn More</a
+                  >
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- inspiration-section  -->
 
       <section class="my-inspiration">
         <div class="section-title">
@@ -120,6 +151,8 @@
           ></iframe>
         </div>
       </section>
+
+      <!-- current target section  -->
 
       <section class="my-current-target">
         <div class="section-title">
@@ -200,7 +233,84 @@
         </div>
       </section>
 
-      <section class="support-section">
+      <!-- next target section  -->
+
+      <section class="my-next-target">
+        <div class="section-title">
+          <h2>My Next Target</h2>
+          <p>
+            To level up my web development skills, I'm diving into the powerful
+            trio of React, Node.js, and MongoDB. This will allow me to build
+            dynamic user interfaces, handle data on the server-side, and store
+            it efficiently, opening doors to creating full-fledged web
+            applications.
+          </p>
+        </div>
+        <div class="next-target-cards-container">
+          <div class="next-target-card">
+            <div class="target-image">
+              <img src="./assets/react.png" alt="ReactJS" />
+            </div>
+            <div class="next-target-desc">
+              <h3>ReactJS</h3>
+              <p>
+                React.js is a popular JavaScript library for building user
+                interfaces. It lets you create reusable components that keep
+                your code organized and maintainable. React makes it easier to
+                develop complex and dynamic web apps by focusing on UI
+                components.
+              </p>
+              <button class="target-btn">
+                <a
+                  href="https://www.w3schools.com/react/react_intro.asp"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="next-target-card">
+            <div class="target-image">
+              <img src="./assets/nodejs.png" alt="NodeJS" />
+            </div>
+            <div class="next-target-desc">
+              <h3>NodeJS</h3>
+              <p>
+                Node.js is a runtime environment that lets you use JavaScript outside the browser. This means you can write server-side code in JavaScript, making development faster and more efficient for web applications.  It excels at handling many connections at once, making it ideal for real-time apps and scalable web services.
+              </p>
+              <button class="target-btn">
+                <a
+                  href="https://www.w3schools.com/nodejs/nodejs_intro.asp"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="next-target-card">
+            <div class="target-image">
+              <img src="./assets/mongodb.png" alt="MongoDB" />
+            </div>
+            <div class="next-target-desc">
+              <h3>MongoDB</h3>
+              <p>
+                MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. Unlike relational databases, it doesn't require a fixed schema, making it perfect for storing and retrieving large amounts of unstructured data. This flexibility is ideal for modern web applications that handle ever-changing data.
+              </p>
+              <button class="target-btn">
+                <a
+                  href="https://www.w3schools.com/mongodb/index.php"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- support section  -->
+       
+      <section id="contact" class="support-section">
         <div class="section-title support">
           <h2>Support Me</h2>
           <p>
@@ -221,17 +331,27 @@
       </section>
     </main>
 
-    <footer>
-      <section id="footer" class="footer">
+    <footer id="footer">
+      <section  class="footer">
         <div class="footer-content">
           <div class="contact-info">
             <p>An Open Commitment by Jubayer Ahmmad</p>
           </div>
           <div class="social-icons">
-            <a href="https://www.facebook.com/zubayerahmmad.1" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/zubayerrrrrrr" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/jubayer-ahmmad073" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/jubayerahmmad" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/zubayerahmmad.1" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/zubayerrrrrrr" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jubayer-ahmmad073"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/jubayerahmmad" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
           </div>
         </div>
       </section>
